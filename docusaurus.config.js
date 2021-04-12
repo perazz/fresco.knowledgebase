@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'FRESCO knowledgebase',
+  title: 'FRESCO Knowledgebase',
   tagline: 'From FRESCO pros, to FRESCO pros',
   url: 'https://perazz.github.io/',
-  baseUrl: '/fresco.knowledgebase/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/FRESCOicon_32x32.png',
   organizationName: 'perazz', // Usually your GitHub org/user name.
   projectName: 'fresco.knowledgebase', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'FRESCO Knowledgebase',
+      title: 'FRESCO',
       logo: {
         alt: 'FRESCO Logo',
-        src: 'img/FRESCOlogo.png',
+        src: 'img/base_logo.svg',
       },
       items: [
         {
@@ -48,16 +48,20 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/users/4702870/federico-perini?tab=profile',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Web',
+              href: 'http://www.federicoperini.info',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/FedericoPerini',
             },
+            {
+              label: 'Consulting',
+              href: 'http://www.w-erc.com',
+            },		  			
           ],
         },
         {
@@ -74,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2014-${new Date().getFullYear()} Federico Perini. Built with Docusaurus.`,
     },
   },
   presets: [
