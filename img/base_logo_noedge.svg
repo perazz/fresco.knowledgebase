@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="base_logo_noedge.svg">
+  <title
+     id="title2949">FRESCO Logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2858"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#81dafd;stop-opacity:1;"
+         offset="0"
+         id="stop2856" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="119.64109"
+     inkscape:cy="302.38349"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="410"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>FRESCO Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="mix-blend-mode:multiply;fill:#00d1ff;fill-opacity:1;fill-rule:evenodd;stroke:#00d1ff;stroke-width:5.1526;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="M 27.431491,96.863759 2.7633535,56.246744 15.073325,59.939978 15.150069,13.045913 31.834883,38.830339 40.629271,14.021181 49.6423,40.154064 61.044074,16.521922 62.835999,54.304391 97.50496,3.6492871 77.187285,68.115674 93.820231,58.139317 79.981272,98.137258 62.176054,98.331687 67.210352,76.058213 55.792676,88.725965 55.609749,62.411634 47.379233,76.761609 41.991804,55.177938 37.111317,83.692469 23.618558,62.963928 Z"
+       id="path24-8-4" />
+  </g>
+</svg>
