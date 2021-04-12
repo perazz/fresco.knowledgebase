@@ -2,8 +2,8 @@
 module.exports = {
   title: 'FRESCO knowledgebase',
   tagline: 'From FRESCO pros, to FRESCO pros',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://perazz.github.io/',
+  baseUrl: '/fresco.knowledgebase/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -13,8 +13,8 @@ module.exports = {
     navbar: {
       title: 'FRESCO Knowledgebase',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'FRESCO Logo',
+        src: 'img/FRESCOlogo.png',
       },
       items: [
         {
