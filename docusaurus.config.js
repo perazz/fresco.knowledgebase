@@ -1,17 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'FRESCO knowledgebase',
+  tagline: 'From FRESCO pros, to FRESCO pros',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'perazz', // Usually your GitHub org/user name.
+  projectName: 'fresco.knowledgebase', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'FRESCO Knowledgebase',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
