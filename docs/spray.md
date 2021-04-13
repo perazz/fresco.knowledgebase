@@ -92,8 +92,7 @@ It can be used to test the effects of different nozzle geometries, and injected 
 
 This model responds to changes in nozzle geometry, and fuel physical properties; however, currently, rail pressure cannot be changed as an user input parameter, as it is assumed to be the default value `prail = 1200 bar`.
 
-import ROImodelSensitivity from '@site/static/img/spray_ROI_sensitivity.svg';
-<ROImodelSensitivity title="ROI model sensitivity" className="logo" />;
+![Docusaurus](/img/spray_ROI_sensitivity.svg)
 
 The Common-Rail ROI model uses the following inputs: 
 - *rail pressure*, assumed fixed `prail = 1200 bar`;
@@ -114,7 +113,35 @@ This simple submodel sets the injected parcel's initial size distribution.
 - `injdist = 0`: blob model (recommended for diesel injection with KHRT breakup). All drops are injected at the nozzle's hole size, determined by the `nozzle.smr` keyword.
 - `injdist = 1`: Inject a Rosin-Rammler distribution of drops, centered in `nozzle.smr`.
 
-## Collision 
+## Collisions
+
+Collision model settings describe drop behavior after drop-to-drop collisions. This is an important model that affects predicted liquid size distribution, and can significantly affect simulation time. 
+Model settings are defined in the `input.spray.collision` structure. References for FRESCO collision modeling approaches are [[2]](#2), [[3]](#3).
+
+- `collision.model` is a flag to define the **collision detection method**. FRESCO defines three possible methods for collision detection: 
+	- `COLIDE_ELIGIBLE_KDTREE  = 1` (recommended) is [Perini et al.'s](#3) kd-tree accelerated, parallelized ROI collision eligibility method.	
+	- `COLIDE_ELIGIBLE_PARABOLA=-1` is [Perini et al.'s](#2) velocity-based ROI collision eligibility method. 
+	- `COLIDE_ELIGIBLE_SAMECELL= 0` is O'Rourke same-cell collision detection algorithm: only drops which physically lie within the same computational cell are deemed eligible for collisions. This is a relatively computationally-efficient method, but it introduces severe mesh dependency. 
+	
+	The parabola ROI eligibility method is the most accurate one; the kd-tree accelerated method was reported to achieve up to one order of magnitude speed-up with respect to the parabola method, in parallel, with virtually no change in predicted spray structure.
+	
+	Same-cell versus ROI-based collision elegibility detection looks like:
+	![Docusaurus](/img/spray_ROI_vs_sameCell.png)
+	
+- `collision.ROI` defines the region of influence method for the collision detection mode. 
+
+
+
+In the ASCII textfile structure, the same collision settings are set in `itapeSpray`, as follows: 
+
+```
+1                   ! [Use ROI collision model]                               <=> spray.collision.model 
+ 0.000e+00          !   (fixed ROI radius value [cm] / dynamic if zero)       <=> spray.collision.ROI 
+1                   ! [Use deterministic impact parameter]                    <=> spray.collision.impact_parameter 
+1                   ! [Use extended collision outcomes]                       <=> spray.collision.extended_outcomes
+```
+
+
 
 
 ## Breakup
@@ -130,4 +157,15 @@ This simple submodel sets the injected parcel's initial size distribution.
 F. Perini, S. Busch, R.D.Reitz.
 A phenomenological rate of injection model for predicting fuel injection with application to mixture formation in light-duty engines.
 Proc ImechE Part D: J Automobile Engineering 234(7), 1826-1839, 2020. 
-doi:10.1177/0954407019898062
+doi:10.1177/0954407019898062.
+
+<a id="2" href="http://www.sciencedirect.com/science/article/pii/S0301932215002487">[2]</a> 
+F. Perini and R.D. Reitz.
+Improved atomization, collision and sub-grid scale momentum coupling models for transient vaporizing engine sprays.
+International Journal of Multiphase Flows 79(2016), 107-123. doi:10.1016/j.ijmultiphaseflow.2015.10.009.
+
+<a id="3" href="https://www.sae.org/publications/technical-papers/content/2021-01-0412/">[3]</a> 
+F. Perini, S. Busch, R.D.Reitz.
+Parallel Load Balancing Strategies for Mesh-Independent Spray Vaporization and Collision Models.
+SAE Technical Paper 2021-01-0412, 2021, doi:10.4271/2021-01-0412.
+doi:10.1177/0954407019898062.

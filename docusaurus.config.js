@@ -3,7 +3,7 @@ module.exports = {
   title: 'FRESCO Knowledgebase',
   tagline: 'From FRESCO pros, to FRESCO pros',
   url: 'https://perazz.github.io/',
-  baseUrl: '/',
+  baseUrl: '/fresco.knowledgebase/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/FRESCOicon_32x32.png',

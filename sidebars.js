@@ -5,10 +5,9 @@ module.exports = {
       label: 'Getting Started',
       items: ['getting-started'],
     },
-    {
-      type: 'category',
-      label: 'FRESCO Input',
-      items: ['spray'],
+    { type: 'category', 
+	  label: 'FRESCO Input', 
+	  items: ['spray','spray-nozzles'],
     },
   ],
 };
