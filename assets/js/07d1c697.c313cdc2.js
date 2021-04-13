@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{70:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/fresco.knowledgebase/blog/welcome"},{"title":"Hello","permalink":"/fresco.knowledgebase/blog/hello-world"},{"title":"Hola","permalink":"/fresco.knowledgebase/blog/hola"}]}')}}]);

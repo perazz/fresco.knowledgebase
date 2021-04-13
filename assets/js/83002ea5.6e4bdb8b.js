@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{91:function(o){o.exports=JSON.parse('{"allTagsPath":"/fresco.knowledgebase/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/fresco.knowledgebase/blog/tags/hola"}')}}]);
