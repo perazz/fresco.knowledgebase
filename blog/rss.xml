@@ -4,15 +4,15 @@
         <title>FRESCO Knowledgebase Blog</title>
         <link>https://perazz.github.io/blog</link>
         <description>FRESCO Knowledgebase Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://perazz.github.io/fresco.knowledgebase/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
+            <pubDate>Mon, 12 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The FRESCO documentation website is eventually online! Hopefully, it'll get more and more populated by the day.]]></description>
         </item>
         <item>
             <title><![CDATA[Hello]]></title>
