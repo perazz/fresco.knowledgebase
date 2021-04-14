@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg859"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo_with_print.svg">
+  <defs
+     id="defs853">
+    <rect
+       x="96.751569"
+       y="145.66189"
+       width="51.315749"
+       height="13.630746"
+       id="rect1437" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="217.06038"
+     inkscape:cy="449.56675"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="410"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata856">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="mix-blend-mode:multiply;fill:#009cff;fill-opacity:1;fill-rule:evenodd;stroke:#0027ff;stroke-width:3.52099;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 86.103799,129.85211 -18.40069,-25.42657 9.18237,2.31199 0.05724,-29.356043 12.445695,16.141251 6.559991,-15.530726 6.723075,16.359385 8.50493,-14.793902 1.33664,23.652115 25.8606,-31.710483 -15.15555,40.356453 12.407,-6.24528 -10.32289,25.03902 -13.28143,0.12172 3.75523,-13.94337 -8.51678,7.93011 -0.13645,-16.47297 -6.13938,8.9832 -4.018635,-13.51156 -3.6405,17.85033 -10.064648,-12.97624 z"
+       id="path24-8-4" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.7891px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.544728"
+       x="57.877827"
+       y="158.64902"
+       id="text1433"
+       transform="scale(0.99294757,1.0071025)"><tspan
+         sodipodi:role="line"
+         id="tspan1431"
+         x="57.877827"
+         y="158.64902"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';stroke-width:0.544728">FRESCO</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1435"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect1437);" />
+    <path
+       style="fill:none;stroke:#b50000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 58.137045,135.80534 H 147.9396"
+       id="path1441" />
+  </g>
+</svg>
