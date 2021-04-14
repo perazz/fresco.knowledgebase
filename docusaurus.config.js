@@ -80,6 +80,19 @@ module.exports = {
       ],
       copyright: `Copyright © 2014-${new Date().getFullYear()} Federico Perini. Built with Docusaurus.`,
     },
+    // Setup search bar 
+    //algolia: {
+//      apiKey: 'YOUR_API_KEY',
+      //indexName: 'YOUR_INDEX_NAME',
+
+      // Optional: see doc section below
+      //contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      //searchParameters: {},
+
+      //... other Algolia params
+    //},  	
   },
   presets: [
     [

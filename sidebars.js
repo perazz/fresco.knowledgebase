@@ -7,7 +7,7 @@ module.exports = {
     },
     { type: 'category', 
 	  label: 'FRESCO Input', 
-	  items: ['spray','spray-nozzles'],
+	  items: ['spray','spray-nozzles','spray-gasjet'],
     },
   ],
 };
