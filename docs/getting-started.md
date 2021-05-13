@@ -3,8 +3,13 @@ title: Getting Started
 slug: /
 ---
 
-## Setup spray behavior 
+## FRESCO settings
 
-Feeling pretty lonely here, you'd be better off looking at the [spray models](spray) page.
+This page is in progress. Please look at: 
+
+- [spray models](spray): to set up spray behavior.
+- [solvers](solver): to set up the fluid flow solvers.
+
+
 
 
